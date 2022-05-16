@@ -1,0 +1,32 @@
+li{
+    list-style: none;
+}
+
+.card{
+   padding: 20px ;
+}
+.d_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.date{
+    font-size: 14px;
+    color: rgb(104, 113, 118);
+}
+.title{
+    font-weight: 600;
+}
+.btn_search{
+   width: 150px;
+}
+.width_100{
+    width: 100px;
+}
+.width_200{
+    width: 200px;
+}
+.mt_20{
+    margin-top: 20px;
+}
+

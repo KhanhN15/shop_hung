@@ -1,0 +1,3417 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.navtab-item {
+  display: inline-block;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #0194f3;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+.bg_ok{
+  background: rgb(48, 197, 247)!important;
+}
+
+.navtab-item.active:active {
+  background: #f2f3f3;
+}
+
+.navtab-item.active {
+  opacity: 1;
+}
+
+.navtab-item + .navtab-item {
+  margin-left: 48px;
+}
+
+.navtab-item.nav-product {
+  line-height: 1.25;
+}
+
+.navtab-item.nav-product > svg {
+  width: 24px;
+  height: 24px;
+}
+
+.navtab-item.nav-product > .nav-product-title {
+  font-size: 12px;
+  font-weight: normal;
+}
+/*.columnAirlineSEO {
+column-width: 137px;
+column-count: 10;
+column-gap: 15px;
+}
+*/
+
+.pulauContainer {
+  padding: 15px;
+  padding-bottom: 10px;
+  transition: opacity 0.4s ease-in-out;
+  /*display: inline-block;*/
+}
+
+.pulauContainer span,
+.pulauContainer li {
+  font-family: MuseoSans, sans-serif;
+}
+
+.pulauContainer span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pulauContainer ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.pulauContainer li a {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.airlineSEOSpecialPrivilegeImage img {
+  width: 229px;
+  height: 170px;
+  object-fit: cover;
+}
+.generalPolicySEO {
+  width: 960px;
+  margin: 0 auto 40px;
+}
+.destinationContent {
+  width: 960px;
+  margin: 40px auto;
+}
+
+.destinationContent h4 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.airlineSEOH3 {
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 500;
+}
+
+.subcontentAddressContact {
+  margin-top: 24px;
+  line-height: 1.5;
+}
+.featureAirlineFacilitiesItem {
+  text-align: center;
+}
+
+.featureAirlineFacilitiesItem img {
+  width: 114px;
+  height: 114px;
+  display: block;
+  margin: 0 auto 32px;
+}
+
+.airlineSEOGrey {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.contentWrapper .airlineSEOGrey {
+  margin-bottom: 0px;
+}
+
+.airlineSEOGreyContainer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.seo-breadcrumb {
+  line-height: 8px;
+  padding: 18px 24px 11px;
+  color: #8f8f8f;
+  width: 100%;
+  font-size: 12px;
+  position: relative;
+  z-index: 100;
+  margin: 82px auto -108px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+
+.seo-breadcrumb a,
+.seo-breadcrumb span {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.seo-breadcrumb span:last-child {
+  font-style: italic;
+  color: #fff;
+}
+.airlineSEOMenu {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.airlineSEOSubMenu h5 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.airlineSEOSubMenu {
+  display: inline-block;
+  padding: 16px;
+  background-color: #f6f6f6;
+  border: 1px solid #979797;
+  border-radius: 4px;
+}
+
+.airlineSubMenu > div {
+  display: flex;
+  justify-content: space-between;
+}
+.simple-text {
+  max-width: 960px;
+  margin: 0 auto 16px;
+}
+
+.simple-text.text-inline {
+  max-width: 100%;
+  margin: 0 0 16px;
+}
+
+.centered-text {
+  max-width: 670px;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.simple-text.fancy {
+  text-align: center;
+}
+
+.simple-text p br:first-child:last-child {
+  display: none !important;
+}
+
+.couponBox + .simple-text.fancy {
+  margin-top: 56px;
+}
+.Alfamart {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -3px -7px;
+  width: 35px;
+  height: 10px;
+}
+
+.Alfamidi {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -50px -8px;
+  width: 34px;
+  height: 7px;
+}
+
+.Ambank {
+  background: url("https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75")
+    no-repeat -99px -5px;
+  width: 35px;
+  height: 13px;
+}
+
+.Bca {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -140px -6px;
+  width: 37px;
+  height: 11px;
+}
+
+.Bni {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -182px -6px;
+  width: 30px;
+  height: 9px;
+}
+
+.Bri {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -217px -6px;
+  width: 34px;
+  height: 10px;
+}
+
+.Bankislam {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -256px -6px;
+  width: 35px;
+  height: 12px;
+}
+
+.Mandiri {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -292px -6px;
+  width: 35px;
+  height: 11px;
+}
+
+.Bankmuamalat {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -331px -5px;
+  width: 35px;
+  height: 13px;
+}
+
+.Bcaklikpay {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -376px -8px;
+  width: 35px;
+  height: 7px;
+}
+
+.Hongleong {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -418px -5px;
+  width: 35px;
+  height: 13px;
+}
+
+.Indomaret {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -460px 0;
+  width: 35px;
+  height: 25px;
+}
+
+.Irakyat {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -505px -5px;
+  width: 35px;
+  height: 13px;
+}
+
+.Mandiridebit {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -547px -3px;
+  width: 35px;
+  height: 19px;
+}
+
+.Mastercard {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -591px -2px;
+  width: 32px;
+  height: 20px;
+}
+
+.Ocbcbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -636px -5px;
+  width: 35px;
+  height: 13px;
+}
+
+.Onepay {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -2px -54px;
+  width: 27px;
+  height: 13px;
+}
+
+.Payoo {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -43px -52px;
+  width: 32px;
+  height: 15px;
+}
+
+.Pbe {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -82px -55px;
+  width: 28px;
+  height: 10px;
+}
+
+.Rhb {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -116px -53px;
+  width: 34px;
+  height: 12px;
+}
+
+.Sevel {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -155px -46px;
+  width: 26px;
+  height: 28px;
+}
+
+.Vietcombank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -194px -55px;
+  width: 35px;
+  height: 8px;
+}
+
+.Visa {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -238px -47px;
+  width: 32px;
+  height: 28px;
+}
+
+.Mandiriecash {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -279px -46px;
+  width: 35px;
+  height: 28px;
+}
+
+.Mandiriclickpay {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -319px -44px;
+  width: 35px;
+  height: 27px;
+}
+
+.Maybank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -371px -51px;
+  width: 38px;
+  height: 8px;
+}
+
+.Bangkokbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -422px -49px;
+  width: 30px;
+  height: 19px;
+}
+
+.Scb {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -456px -49px;
+  width: 30px;
+  height: 19px;
+}
+
+.Ktb {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -491px -49px;
+  width: 30px;
+  height: 19px;
+}
+
+.Krungsri {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -525px -49px;
+  width: 30px;
+  height: 19px;
+}
+
+.Familymart {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -565px -55px;
+  width: 35px;
+  height: 10px;
+}
+
+.Prima {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat 0 -103px;
+  width: 30px;
+  height: 21px;
+}
+
+.Atmbersama {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -42px -99px;
+  width: 35px;
+  height: 30px;
+}
+
+.Bnidebit {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -79px -99px;
+  width: 33px;
+  height: 30px;
+}
+
+.Tmb {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -130px -105px;
+  width: 29px;
+  height: 20px;
+}
+
+.Uob {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -163px -105px;
+  width: 29px;
+  height: 20px;
+}
+
+.Truemoney {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -198px -109px;
+  width: 25px;
+  height: 13px;
+}
+
+.Paypost {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -228px -105px;
+  width: 33px;
+  height: 19px;
+}
+
+.Mpay {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -266px -100px;
+  width: 25px;
+  height: 30px;
+}
+
+.Totjustpay {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -314px -106px;
+  width: 44px;
+  height: 17px;
+}
+
+.Bigc {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -391px -99px;
+  width: 23px;
+  height: 30px;
+}
+
+.Tescolotus {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -428px -106px;
+  width: 30px;
+  height: 16px;
+}
+
+.Alto {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -198px -151px;
+  width: 31px;
+  height: 22px;
+}
+
+.Amex {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -245px -147px;
+  width: 35px;
+  height: 31px;
+}
+
+.Cimbclick {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -294px -146px;
+  width: 37px;
+  height: 33px;
+}
+
+.Dragonpay {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -144px -151px;
+  width: 37px;
+  height: 17px;
+}
+
+.Bpi {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -472px -101px;
+  width: 39px;
+  height: 18px;
+}
+
+.Bdo {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -523px -107px;
+  width: 35px;
+  height: 12px;
+}
+
+.Chinabank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -565px -101px;
+  width: 26px;
+  height: 26px;
+}
+
+.Landbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -94px -148px;
+  width: 33px;
+  height: 20px;
+}
+
+.Metrobank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -603px -107px;
+  width: 44px;
+  height: 8px;
+}
+
+.Ucpb {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -46px -145px;
+  width: 31px;
+  height: 31px;
+}
+
+.Rcbc {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -345px -150px;
+  width: 31px;
+  height: 32px;
+}
+
+.MLhuillier {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat 0 -148px;
+  width: 31px;
+  height: 25px;
+}
+
+.Alliancebank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -390px -156px;
+  width: 40px;
+  height: 14px;
+}
+
+.Affinbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -450px -155px;
+  width: 42px;
+  height: 15px;
+}
+
+.Singpostsam {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -505px -152px;
+  width: 36px;
+  height: 19px;
+}
+
+.Enets {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -551px -158px;
+  width: 40px;
+  height: 10px;
+}
+
+.Vietinbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -603px -156px;
+  width: 44px;
+  height: 15px;
+}
+
+.Bidv {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat 0 -191px;
+  width: 42px;
+  height: 15px;
+}
+
+.Vib {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -51px -188px;
+  width: 32px;
+  height: 21px;
+}
+
+.Eximbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -92px -188px;
+  width: 45px;
+  height: 13px;
+}
+
+.Sacombank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -147px -191px;
+  width: 41px;
+  height: 14px;
+}
+
+.Mb {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -198px -188px;
+  width: 35px;
+  height: 23px;
+}
+
+.Tpbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -244px -192px;
+  width: 44px;
+  height: 14px;
+}
+
+.Hdbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -297px -194px;
+  width: 38px;
+  height: 14px;
+}
+
+.Maritimebank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -345px -192px;
+  width: 42px;
+  height: 16px;
+}
+
+.Vietabank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -398px -193px;
+  width: 39px;
+  height: 11px;
+}
+
+.NHNA {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -452px -195px;
+  width: 41px;
+  height: 9px;
+}
+
+.Oceanbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -502px -191px;
+  width: 42px;
+  height: 11px;
+}
+
+.Seabank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -551px -190px;
+  width: 41px;
+  height: 11px;
+}
+
+.Bacabank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -603px -188px;
+  width: 41px;
+  height: 14px;
+}
+
+.Asbank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -3px -224px;
+  width: 37px;
+  height: 11px;
+}
+
+.Ncb {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -51px -222px;
+  width: 39px;
+  height: 13px;
+}
+
+.Agribank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -99px -222px;
+  width: 44px;
+  height: 13px;
+}
+
+.BGB {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -157px -221px;
+  width: 41px;
+  height: 14px;
+}
+
+.Shb {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -206px -221px;
+  width: 39px;
+  height: 18px;
+}
+
+.Cholon {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -253px -221px;
+  width: 40px;
+  height: 11px;
+}
+
+.Phucanh {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -302px -222px;
+  width: 41px;
+  height: 8px;
+}
+
+.Bsmart {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -355px -219px;
+  width: 41px;
+  height: 11px;
+}
+
+.Ministop {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -414px -215px;
+  width: 26px;
+  height: 23px;
+}
+
+.Circlek {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -455px -216px;
+  width: 37px;
+  height: 16px;
+}
+
+.Guardian {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -499px -217px;
+  width: 39px;
+  height: 16px;
+}
+
+.Fpt {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -551px -218px;
+  width: 40px;
+  height: 11px;
+}
+
+.Cocomart {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -604px -220px;
+  width: 38px;
+  height: 10px;
+}
+
+.Quanglong {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -1px -255px;
+  width: 37px;
+  height: 18px;
+}
+
+.Hongyen {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -53px -261px;
+  width: 36px;
+  height: 7px;
+}
+
+.Vinmart {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -102px -259px;
+  width: 41px;
+  height: 10px;
+}
+
+.Hnam {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -158px -259px;
+  width: 38px;
+  height: 11px;
+}
+
+.Citimart {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -209px -262px;
+  width: 41px;
+  height: 9px;
+}
+
+.Ddongvet {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -264px -258px;
+  width: 36px;
+  height: 17px;
+}
+
+.Bancnet {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -316px -261px;
+  width: 40px;
+  height: 8px;
+}
+
+.Pata {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -370px -258px;
+  width: 35px;
+  height: 18px;
+}
+
+.Cebuana {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -416px -255px;
+  width: 29px;
+  height: 26px;
+}
+
+.Hsbc {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -456px -259px;
+  width: 36px;
+  height: 13px;
+}
+
+.Maybankkuning {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -506px -259px;
+  width: 40px;
+  height: 11px;
+}
+
+.Stancar {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -560px -258px;
+  width: 42px;
+  height: 15px;
+}
+
+.Citibank {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -613px -257px;
+  width: 25px;
+  height: 16px;
+}
+
+.Dbs {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat 0 -300px;
+  width: 34px;
+  height: 10px;
+}
+
+.Paylater {
+  background: url(https://ik.imagekit.io/tvlk/image/imageResource/2017/05/12/1494573946528-e8f16be200457ca2aa076b18243dd041.png?tr=q-75)
+    no-repeat -54px -297px;
+  width: 39px;
+  height: 13px;
+}
+
+.paymentPartnerContent {
+  width: 48px;
+  position: relative;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid #dadada;
+  background-color: white;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.paymentPartnerContent div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.paymentPartnerContent:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.seoImageSlider {
+  width: 960px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.imageSliderContainer {
+  width: 804px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 16px;
+}
+
+.chevronLeft,
+.chevronRight {
+  padding: 3px 7px;
+  cursor: pointer;
+  width: 24px;
+  height: auto;
+}
+
+.chevronLeft,
+.chevronRight,
+.imageSliderContainer {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contentImageSliderPayment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+  display: flex;
+}
+
+[data-which-id]:hover,
+[data-which-id]:focus {
+  cursor: pointer;
+}
+.airlineSEO_three_description {
+  margin: 0 auto;
+  display: block;
+  width: 960px;
+}
+
+.airlineSEO_descriptions {
+  width: 30%;
+  margin-right: 28px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.airlineSEO_descriptions:nth-last-child(1) {
+  margin-right: 0;
+}
+.nav-tab-content {
+  display: none;
+  margin: 32px 0;
+}
+
+.nav-tab-content.active {
+  opacity: 1;
+  display: block;
+}
+
+.nav-tab-content.show {
+  display: block;
+  opacity: 1;
+  position: relative;
+}
+
+.nav-tab-content.hide {
+  display: none;
+  opacity: 0;
+  position: absolute;
+}
+
+.nav-tab-content.go-left {
+  display: block;
+  opacity: 0;
+  transform: translateX(-32px);
+  transition: all 0s ease-out;
+}
+
+.nav-tab-content.go-right {
+  display: block;
+  opacity: 0;
+  transform: translateX(32px);
+  transition: all 0s ease-out;
+}
+
+.nav-tab-content.slides-center {
+  transform: translateX(0);
+  position: relative;
+  opacity: 1;
+  transition: all 0.2s ease-out;
+}
+
+.nav-tab-content.slides-left {
+  opacity: 0;
+  position: absolute;
+  transform: translateX(-32px);
+  transition: all 0.2s ease-out;
+}
+
+.nav-tab-content.slides-right {
+  opacity: 0;
+  position: absolute;
+  transform: translateX(32px);
+  transition: all 0.2s ease-out;
+}
+.profileHistory {
+  width: 784px;
+  margin: 40px auto 40px;
+  text-align: center;
+}
+
+.profileHistory h4 {
+  margin-bottom: 32px;
+}
+
+.profileHistory_readable {
+  white-space: pre-line;
+  overflow: hidden;
+}
+
+.profileHistory__content {
+  max-height: 128px;
+  font-family: MuseoSans, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.6;
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+
+.profileHistory__content a {
+  font-size: 14px;
+  text-decoration: none !important;
+  font-weight: 300 !important;
+}
+
+.profileHistory__content ul {
+  line-height: 1.2;
+  margin-bottom: -10px !important;
+}
+
+.profileHistory__content li {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.profileHistory__readMore {
+  font-family: MuseoSans, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none !important;
+  text-align: center;
+  color: #fff !important;
+  cursor: pointer;
+  margin: 8px auto;
+  display: table;
+  padding: 4px 16px;
+  background-color: #0770cd;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.profileHistory__readMore:hover {
+  background-color: #1188d7;
+}
+
+.airlineSEOClassesContent {
+  width: 100%;
+  margin: 0 auto 24px;
+}
+
+.classContainer,
+.mealContainer {
+  display: flex;
+}
+
+.airlineSEOClassesContent .classContainer .imageClass,
+.airlineSEOClassesContent .mealContainer .imageMeal {
+  margin-right: 24px;
+  min-width: 229px;
+  height: 170px;
+  object-fit: contain;
+}
+
+.mealContainer .subMealContainer {
+  width: auto;
+}
+
+.featureAirlineFacilities {
+  margin-top: 220px;
+}
+
+.featureAirlineFacilities h4 {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.featureAirlineFacilities > h2 {
+  text-align: center;
+}
+
+.featureAirlineFacilities > div {
+  display: flex;
+  justify-content: space-around;
+  width: 720px;
+  margin: 0 auto;
+}
+
+.airlineSEOSpecialPrivilege {
+  width: 960px;
+}
+
+.specialPrivilegeLeft {
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.specialPrivilegeLeft,
+.specialPrivilegeRight {
+  display: inline-block;
+  vertical-align: top;
+}
+.airlineSEOMenuContent {
+  line-height: 1.7;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 300;
+}
+.airlineSEOFleet {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.fleetContainer {
+  width: 300px;
+  margin-right: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.fleetContainer:nth-last-child(1) {
+  margin-right: 0;
+}
+.airlineSEOInFlightCrews {
+  width: 960px;
+  margin: 0 auto 40px;
+}
+
+.flightCrewsLeft {
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flightCrewsLeft,
+.flightCrewsRight {
+  display: inline-block;
+  vertical-align: top;
+}
+.airlineSEOClasses {
+  width: 960px;
+  margin: 0 auto 40px;
+}
+
+.airlineSEOClassContainer {
+  width: 450px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 55px;
+}
+
+.airlineSEOClassContainer:nth-last-child(1) {
+  margin-right: 0;
+}
+.content__container {
+  display: none;
+  opacity: 0;
+}
+
+.fancyHeading {
+  width: 100% !important;
+}
+
+.content__container.active {
+  display: block;
+  opacity: 1;
+}
+/* BASE & HELPER */
+.v3Helpers {
+  min-height: 30px;
+  width: 100%;
+  background: url("https://s3-ap-southeast-1.amazonaws.com/traveloka/imageResource/mcp/componentType/1469082135065-desktopWeb.png")
+    no-repeat center;
+  background-size: contain;
+}
+
+::selection {
+  background: #1ba0e2;
+  color: #fff;
+}
+
+.mcp-placeholder[data-name="content"] {
+  padding-bottom: 40px;
+}
+
+.mcp-placeholder {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: GRAYscale;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center .align-center-short {
+  display: inline-block;
+  width: 600px;
+}
+
+.caret {
+  display: inline-block;
+  margin-left: 5px;
+  width: 5px;
+  height: 5px;
+  border-bottom: 2px solid #0770cd;
+  border-left: 2px solid #0770cd;
+  transform: rotate(-45deg) translateY(-3px);
+}
+
+.caret.caret-white {
+  border-color: #fff;
+}
+
+.block-underline {
+  display: block;
+  width: 100%;
+  border-width: 0;
+}
+
+.block-underline:after {
+  display: inline-block;
+  width: 56px;
+  height: 3px;
+  background-color: #1ba0e2;
+  content: "";
+}
+
+.block-underline.black:after {
+  background-color: #696969;
+}
+
+.block-underline.yellow:after {
+  background-color: #ffcd00;
+}
+
+.bg-grey {
+  background-color: #f7f9fa;
+}
+
+.mcp-placeholder hr {
+  border-width: 0;
+  border-top: 1px solid #dadada;
+}
+
+.m-b-0,
+.mb-0 {
+  margin-bottom: 0;
+}
+.m-b-8,
+.mb-8 {
+  margin-bottom: 8px;
+}
+.m-b-16,
+.mb-16 {
+  margin-bottom: 16px;
+}
+.m-b-24,
+.mb-24 {
+  margin-bottom: 24px;
+}
+.m-b-32,
+.mb-32 {
+  margin-bottom: 32px;
+}
+.m-b-40,
+.mb-40 {
+  margin-bottom: 40px;
+}
+.m-b-48,
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.m-t-0,
+.mt-0 {
+  margin-top: 0;
+}
+.m-t-8,
+.mt-8 {
+  margin-top: 8px;
+}
+.m-t-16,
+.mt-16 {
+  margin-top: 16px;
+}
+.m-t-24,
+.mt-24 {
+  margin-top: 24px;
+}
+.m-t-32,
+.mt-32 {
+  margin-top: 32px;
+}
+.m-t-48,
+.mt-40 {
+  margin-top: 40px;
+}
+.m-t-48,
+.mt-48 {
+  margin-top: 48px;
+}
+
+.b-t {
+  border-top: 1px solid #dadada;
+}
+.b-r {
+  border-right: 1px solid #dadada;
+}
+.b-b {
+  border-bottom: 1px solid #dadada;
+}
+.b-l {
+  border-left: 1px solid #dadada;
+}
+
+/* GRID */
+.clearfix,
+.row {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after,
+.row:after {
+  clear: both;
+}
+
+.row {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+.flex {
+  display: flex;
+}
+
+.row.flex {
+  display: flex;
+}
+
+.row.flex.centered {
+  align-items: center;
+}
+
+div[class*="col-"] {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 12px;
+  padding-left: 12px;
+  min-height: 1px;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+.offset-1 {
+  margin-left: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+.offset-2 {
+  margin-left: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+.offset-3 {
+  margin-left: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+.offset-4 {
+  margin-left: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+.offset-5 {
+  margin-left: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+.offset-6 {
+  margin-left: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+.offset-7 {
+  margin-left: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+.offset-8 {
+  margin-left: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+.offset-9 {
+  margin-left: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+.offset-10 {
+  margin-left: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+.offset-11 {
+  margin-left: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+.offset-12 {
+  margin-left: 100%;
+}
+
+/* TYPOGRAPHY */
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  moz-osx-font-smoothing: GRAYscale;
+}
+
+.mcp-placeholder {
+  color: #03121a !important;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: MuseoSans, sans-serif;
+  line-height: 1.8;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h3 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h5 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+h6 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #687176;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+p {
+  color: #354148;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p br:first-child:last-child {
+  display: none;
+}
+
+#tripSearchFormContainer p {
+  margin: 0;
+}
+
+small,
+.small {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6 {
+  margin: 0;
+}
+
+/* Override */
+
+#desktop-topbar h1,
+#desktop-topbar h2,
+#desktop-topbar h3 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+/* End Override */
+
+*:lang(th) {
+  font-family: sans-serif !important;
+}
+
+*:lang(vi) {
+  font-family: sans-serif !important;
+}
+
+.light {
+  font-weight: normal !important;
+}
+
+.thin {
+  font-weight: 300 !important;
+}
+
+.hover {
+  -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-secondary {
+  color: #687176;
+}
+
+.text-disabled {
+  color: #687176;
+  opacity: 0.5;
+}
+
+.text-solid {
+  color: #03121a;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-white a {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.text-white a:hover {
+  opacity: 0.6;
+}
+
+.text-white a:active,
+.text-white .contentWrapper a:focus {
+  opacity: 1;
+}
+
+.contentWrapper a,
+.contentWrapper a:link {
+  color: #0194f3;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contentWrapper a:hover {
+  color: #0194f3;
+}
+
+.contentWrapper ul {
+  margin-bottom: 24px;
+  padding-left: 24px;
+  list-style: disc;
+}
+
+.contentWrapper ol {
+  counter-reset: super-decimal;
+}
+
+.contentWrapper ul > li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  list-style: disc;
+}
+
+.contentWrapper ol > li {
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 24px;
+  counter-increment: super-decimal;
+}
+
+.contentWrapper ol > li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: counter(super-decimal) ".";
+}
+
+.contentWrapper ol > ul > li {
+  margin-left: 16px;
+}
+
+.contentWrapper ul li ul li {
+  margin-left: 16px;
+  list-style: circle;
+}
+
+.footer-left p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.highlight {
+  color: #0194f3;
+}
+
+/* FORM */
+.form-control,
+input.form-control,
+select.form-control,
+textarea.form-control {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  min-height: 42px;
+  width: 100%;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  background: #fff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-transition: border 0.2s ease-out;
+  transition: border 0.2s ease-out;
+}
+
+.form-control:focus,
+.form-control.focus,
+.form-control:hover {
+  outline: 0;
+  border: 1px solid #1ba0e2 !important;
+}
+
+.form-group select.form-control {
+  height: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-group.selectbox:before {
+  position: absolute;
+  right: 16px;
+  bottom: 18px;
+  z-index: 10;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #0770cd;
+  border-left: 2px solid #0770cd;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.form-group.selectbox[class*="col-"]:before {
+  right: 26px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.form-group.form-inline {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  min-height: 19px;
+  color: #434343;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.form-group select.form-control {
+  padding-right: 40px;
+  height: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-group.required:after,
+.form-group[required]:after {
+  position: absolute;
+  top: 28px;
+  right: 8px;
+  color: #f34646;
+  content: "*";
+  font-size: 18px;
+}
+
+.form-row .form-group:not(:first-child) {
+  padding-left: 0;
+}
+
+textarea.form-control {
+  line-height: 1.8;
+  resize: vertical;
+}
+
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #8f8f8f;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.input-icon {
+  position: absolute;
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  pointer-events: none;
+}
+
+.input-icon img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.input-icon + .form-control {
+  padding-left: 48px;
+}
+
+/* BUTTON */
+button .close {
+  padding: 0;
+  border-width: 0;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1;
+  opacity: 0.5;
+}
+
+button .close:hover {
+  opacity: 0.9;
+}
+
+[class*="btn-"],
+.tv-generalButton {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  border-width: 0;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none !important;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+[class*="btn-"]:focus {
+  outline: 0;
+}
+
+:lang(th) [class*="btn-"] {
+  font-weight: normal;
+}
+
+[class*="btn-"].btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-default,
+.btn-default:focus {
+  background: #f7f9fa !important;
+  color: #0194f3 !important;
+}
+
+.btn-default:hover {
+  background: #f2f3f3 !important;
+}
+
+.btn-default:active:focus,
+.btn-default:active:hover {
+  background: #f7f9fa !important;
+  color: rgba(1, 148, 243, 0.5) !important;
+}
+
+.btn-secondary {
+  background: #0194f3 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover {
+  background: #007ce8 !important;
+}
+
+.btn-secondary:active:focus,
+.btn-secondary:active:hover {
+  background: #0194f3 !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.btn-secondary-hollow {
+  border: 2px solid #0770cd;
+  background: transparent;
+  color: #0770cd !important;
+}
+
+.btn-primary,
+.btn-primary:focus {
+  background: #ff5e1f;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background: #df440f;
+}
+
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+  background: #ff5e1f;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.btn.btn-xs {
+  padding: 10px 30px;
+}
+
+/* CONTAINER */
+.box {
+  margin-bottom: 24px;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.box .box-header {
+  border-bottom: 1px solid #dadada;
+}
+
+.box div.box-header {
+  padding: 16px 24px;
+}
+
+.box.box-body,
+.box .box-body {
+  padding: 24px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.box.large.box-body,
+.box.large .box-body {
+  padding: 40px 32px;
+}
+
+.box.large .nav-tab {
+  margin: 0 32px;
+}
+
+.card {
+  margin-bottom: 24px;
+  min-height: 50px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 3px 0 rgba(27, 27, 27, 0.1);
+  line-height: 24px;
+  transition: all 0.2s ease-out;
+}
+
+.card .card-header {
+  padding: 16px;
+  font-weight: 300;
+}
+
+.card.card-body,
+.card .card-body {
+  padding: 16px;
+  transition: all 0.2s ease-out;
+}
+
+.card > *:first-child,
+.card.card-body > *:first-child {
+  margin-top: 0;
+}
+
+.card.large.card-body,
+.card.large .card-body {
+  padding: 40px 32px;
+}
+
+.card.large .nav-tab {
+  margin: 0 32px;
+}
+
+.card .nav-tab:first-child {
+  margin-top: -24px;
+  margin-bottom: 16px;
+}
+
+.contentWrapper .nav-pill a,
+.contentWrapper .nav-pill a:link {
+  display: block;
+  margin: 8px 0;
+  padding: 10px 16px;
+  border-radius: 6px;
+  color: #8f8f8f;
+  text-decoration: none !important;
+  transition: background 0.2s ease-out;
+}
+
+.nav-pill a:hover {
+  background: rgba(0, 0, 0, 0.08);
+  color: #8f8f8f;
+}
+
+.nav-pill a.active {
+  background: #0770cd;
+  color: #fff !important;
+}
+
+[data-pill-content] {
+  display: none;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+/* ANIMATION */
+
+.slide-left {
+  display: block !important;
+  opacity: 0 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
+  transform: translateX(-16px) !important;
+}
+
+.slide-right {
+  display: block !important;
+  opacity: 0 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
+  transform: translateX(16px) !important;
+}
+
+.slide-up {
+  display: block !important;
+  opacity: 0 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
+  transform: translateY(-16px) !important;
+}
+
+.slide-down {
+  display: block !important;
+  opacity: 0 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
+  transform: translateY(16px) !important;
+}
+
+.active {
+  -webkit-transition: transform 0.3s ease, opacity 0.3s ease;
+  -moz-transition: transform 0.3s ease, opacity 0.3s ease;
+  -ms-transition: transform 0.3s ease, opacity 0.3s ease;
+  -o-transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* INPUT */
+
+.checkbox {
+  position: relative;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.checkbox input[type="checkbox"] {
+  position: absolute;
+  top: 5px;
+  z-index: 10;
+  width: 100%;
+  height: 16px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox input[type="checkbox"] + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.checkbox input[type="checkbox"] + label:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  background: #f6f6f6;
+  content: "";
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.checkbox input[type="checkbox"] + label:after {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 6px;
+  height: 9px;
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  content: "";
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkbox input[type="checkbox"]:checked + label:after {
+  border-color: #fff;
+}
+
+.checkbox input[type="checkbox"]:checked + label:before {
+  border-color: #0770cd;
+  background: #0770cd;
+}
+
+/* TV OVERWRITES */
+
+.tv-wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.tv-wrapper-1024 {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+#tvDesktop-flightSearchForm p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.1 !important;
+}
+
+.tv-search-container {
+  line-height: normal;
+}
+
+.tv-search-container h2 {
+  margin-top: 0;
+}
+
+.tv-hotel-search-table-container .tv-col-content {
+  width: 100%;
+}
+
+.tv-dialog {
+  border-radius: 6px;
+}
+
+.tv-dialog-body {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0px 1px 0px rgba(67, 67, 67, 0.2),
+    0px 2px 4px 0px rgba(67, 67, 67, 0.2);
+  box-shadow: 0 0px 1px 0px rgba(67, 67, 67, 0.2),
+    0px 2px 4px 0px rgba(67, 67, 67, 0.2);
+}
+
+.tv-dialog-overlay {
+  background-color: #232a31;
+  opacity: 0.85;
+}
+
+.tv-dialog-content h3:first-child,
+.tv-dialog-content h4:first-child,
+.tv-dialog-content h5:first-child {
+  margin-top: 0;
+}
+
+.newsletterDialogContent {
+  background: #fff;
+}
+
+.tv-dialog-footer {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #fff !important;
+}
+
+.tvSearchTagLineText h1 {
+  line-height: 0;
+}
+
+.airlineSEOCheckIn {
+  width: 960px;
+  margin: 0 auto 40px;
+}
+
+.airlineSEOCheckInContentLeft,
+.airlineSEOCheckInContentRight {
+  width: 450px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 55px;
+}
+
+.airlineSEOCheckInContentRight {
+  margin-right: 0;
+}
+.airlineSEOSingleHeading {
+  width: 100%;
+  margin: 40px auto 24px;
+}
+
+.contentWrapper > div > .airlineSEOSingleHeading {
+  width: 960px;
+  margin: 40px auto 24px;
+}
+.inFlightCrewContent {
+  width: 635px;
+}
+
+.inFlightCrewContent h5 {
+  font-family: MuseoSans, sans-serif;
+}
+
+.inFlightCrewContent h5 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.airlineBaggageTable {
+  width: 960px;
+  margin: 40px auto;
+}
+
+.baggageTable,
+.baggageTable td,
+.baggageTable th {
+  border: 1px solid #dedede;
+  padding: 4px 8px;
+}
+
+.baggageTable thead td {
+  background-color: #fafafa;
+  text-align: left;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+.airlineSEOH5 {
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 700;
+}
+.generalPoliciesContent h5 {
+  font-family: MuseoSans, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.generalPoliciesContent li {
+  font-family: MuseoSans, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.featureFlight {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.airlineRefundItem.nongds,
+[data-pill-content] {
+  display: none;
+  opacity: 0;
+}
+
+.airlineRefundItem.nongds.active,
+[data-pill-content].active {
+  display: block;
+  opacity: 1;
+}
+
+.featureFlight .fancyHeading h2,
+.featureFlight .fancyHeading .align-center-short {
+  width: auto;
+}
+
+.airlineSEOFleetContent {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fleetFlexContainer {
+  display: flex;
+}
+
+.airlineSEOFleetContent img {
+  width: 260px;
+  height: 115px;
+  margin-right: 24px;
+}
+
+.fleetSubContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.mcp-placeholder[data-name="content"] > .fancyHeading {
+  margin-top: 56px;
+}
+
+.fancyHeading {
+  width: 960px;
+  margin: auto;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.fancyHeading h2,
+.fancyHeading .align-center-short {
+  display: inline-block;
+  width: 700px;
+}
+
+.fancyHeading h2 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 2;
+}
+
+.fancyHeading .align-center-short {
+  line-height: 1.8;
+  font-size: 16px;
+  padding: 24px 0;
+}
+
+.fancyHeading.h2 .align-center-short p {
+  color: #8f8f8f;
+}
+
+.fancyHeading .align-center-short p:first-child {
+  margin-top: 0;
+}
+
+.fancyHeading .align-center-short p:last-child {
+  margin-bottom: 0;
+}
+
+.block-underline.yellow:after {
+  background-color: #ffc300;
+}
+.airlineSEOSpecialPrivilegeContent {
+  width: 635px;
+}
+
+.airlineSEOSpecialPrivilegeContent h5,
+.airlineSEOSpecialPrivilegeContent p {
+  font-family: MuseoSans, sans-serif;
+}
+
+.airlineSEOSpecialPrivilegeContent h5 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 26px;
+}
+.Aeroflot {
+  width: 35px;
+  height: 22px;
+}
+
+.Airastana {
+  width: 23px;
+  height: 30px;
+}
+
+.Airchina {
+  width: 30px;
+  height: 33px;
+}
+
+.Airfrance {
+  width: 35px;
+  height: 10px;
+}
+
+.Airnewzealand {
+  width: 28px;
+  height: 28px;
+}
+
+.Airniugini {
+  width: 30px;
+  height: 32px;
+}
+
+.Airasia {
+  width: 35px;
+  height: 16px;
+}
+
+.Americanairlines {
+  width: 28px;
+  height: 29px;
+}
+
+.Allnipponairlines {
+  width: 35px;
+  height: 10px;
+}
+
+.Asianaairlines {
+  width: 25px;
+  height: 24px;
+}
+
+.Bangkokairways {
+  width: 18px;
+  height: 40px;
+}
+
+.Batikair {
+  width: 30px;
+  height: 16px;
+}
+
+.Cambodiaangkorair {
+  width: 25px;
+  height: 30px;
+}
+
+.Cathaypacific {
+  width: 24px;
+  height: 28px;
+}
+
+.Cebgo {
+  width: 35px;
+  height: 15px;
+}
+
+.Cebupacificair {
+  width: 35px;
+  height: 23px;
+}
+
+.Chinaairlines {
+  width: 32px;
+  height: 27px;
+}
+
+.Chinaeasternairlines {
+  width: 30px;
+  height: 25px;
+}
+
+.Chinasouthernairlines {
+  width: 35px;
+  height: 23px;
+}
+
+.Citilink {
+  width: 35px;
+  height: 8px;
+}
+
+.Deltaairlines {
+  width: 32px;
+  height: 26px;
+}
+
+.Egyptair {
+  width: 28px;
+  height: 30px;
+}
+
+.Emirates {
+  width: 25px;
+  height: 31px;
+}
+
+.Etihadairways {
+  width: 35px;
+  height: 15px;
+}
+
+.EVAair {
+  width: 32px;
+  height: 23px;
+}
+
+.Finnair {
+  width: 40px;
+  height: 6px;
+}
+
+.Firefly {
+  width: 22px;
+  height: 34px;
+}
+
+.Garudaindonesia {
+  width: 35px;
+  height: 17px;
+}
+
+.Hongkongairlines {
+  width: 30px;
+  height: 28px;
+}
+
+.Japanairlines {
+  width: 30px;
+  height: 30px;
+}
+
+.Jetairways {
+  width: 30px;
+  height: 29px;
+}
+
+.Jetstar {
+  width: 35px;
+  height: 12px;
+}
+
+.Kalstaraviation {
+  width: 30px;
+  height: 30px;
+}
+
+.Kenyaairways {
+  width: 32px;
+  height: 27px;
+}
+
+.Klm {
+  width: 30px;
+  height: 18px;
+}
+
+.Koreanair {
+  width: 30px;
+  height: 30px;
+}
+
+.Laoairlines {
+  width: 30px;
+  height: 30px;
+}
+
+.Lionair {
+  width: 29px;
+  height: 30px;
+}
+
+.Lufthansa {
+  width: 32px;
+  height: 33px;
+}
+
+.Malaysiaairlines {
+  width: 30px;
+  height: 22px;
+}
+
+.Malindoair {
+  width: 29px;
+  height: 26px;
+}
+
+.Namair {
+  width: 30px;
+  height: 21px;
+}
+
+.Nokair {
+  width: 25px;
+  height: 29px;
+}
+
+.Omanair {
+  width: 31px;
+  height: 27px;
+}
+
+.Philippineairlines {
+  width: 31px;
+  height: 17px;
+}
+
+.Qantasairlines {
+  width: 28px;
+  height: 25px;
+}
+
+.Qatarairways {
+  width: 30px;
+  height: 27px;
+}
+
+.Royalbrunei {
+  width: 32px;
+  height: 21px;
+}
+
+.Saudiarabiaairlines {
+  width: 29px;
+  height: 31px;
+}
+
+.Shanghaiairlines {
+  width: 30px;
+  height: 22px;
+}
+
+.Silkair {
+  width: 26px;
+  height: 24px;
+}
+
+.Singaporeairlines {
+  width: 25px;
+  height: 31px;
+}
+
+.Srilankanairlines {
+  width: 30px;
+  height: 22px;
+}
+
+.Sriwijayaair {
+  width: 30px;
+  height: 23px;
+}
+
+.Swissinternationalairlines {
+  width: 35px;
+  height: 9px;
+}
+
+.Thaiairasiax {
+  width: 29px;
+  height: 29px;
+}
+
+.Thaiairways {
+  width: 30px;
+  height: 26px;
+}
+
+.Thailion {
+  width: 34px;
+  height: 16px;
+}
+
+.Thaismile {
+  width: 40px;
+  height: 18px;
+}
+
+.Scoot {
+  width: 35px;
+  height: 31px;
+}
+
+.Transnusaaviation {
+  width: 25px;
+  height: 36px;
+}
+
+.Triganaair {
+  width: 38px;
+  height: 9px;
+}
+
+.Turkishairlines {
+  width: 30px;
+  height: 30px;
+}
+
+.Ukraineinternationalairlines {
+  width: 35px;
+  height: 22px;
+}
+
+.Unitedairlines {
+  width: 26px;
+  height: 26px;
+}
+
+.Vietjet {
+  width: 35px;
+  height: 13px;
+}
+
+.Vietnamairlines {
+  width: 32px;
+  height: 19px;
+}
+
+.Virginaustralia {
+  width: 32px;
+  height: 23px;
+}
+
+.Wingsair {
+  width: 28px;
+  height: 28px;
+}
+
+.Xiamenairlines {
+  width: 30px;
+  height: 12px;
+}
+
+.Xpressair {
+  width: 35px;
+  height: 12px;
+}
+
+.airlinePartnerContent {
+  width: 48px;
+  position: relative;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid #dadada;
+  background-color: white;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.airlinePartnerContent img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.airlinePartnerContent:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.seoImageSlider {
+  width: 960px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.imageSliderContainer {
+  width: 804px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 16px;
+}
+
+.chevronLeft,
+.chevronRight {
+  padding: 3px 7px;
+  cursor: pointer;
+  width: 24px;
+  height: auto;
+}
+
+.chevronLeft,
+.chevronRight,
+.imageSliderContainer {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contentImageSliderAirline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+
+.scripts {
+  min-height: 30px;
+  background: url("https://s3-ap-southeast-1.amazonaws.com/traveloka/imageResource/mcp/componentType/1468472655053-desktopWeb.png")
+    no-repeat center;
+  background-size: contain;
+  width: 100%;
+}
+.airlineSEOH4 {
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 0px;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 700;
+}
+
+.airlineSEOH4 span {
+  font-size: 18px;
+}
+.nav-tab {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-tab > div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border-bottom: 1px solid #dadada;
+}
+
+.nav-tab.alignLeft > div {
+  justify-content: left;
+}
+
+.nav-tab-slider {
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  border-radius: 2px;
+  background: #0194f3;
+  transition: all 0.2s ease-out;
+}
+
+.largeFont .navtab-item {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.navtab-item {
+  padding: 16px 8px !important;
+}
+.styles {
+  background: url("https://ik.imagekit.io/tvlk/image/imageResource/mcp/componentType/1468569417420-desktopWeb.png")
+    no-repeat center;
+  background-size: contain;
+  min-height: 30px;
+  width: 100%;
+  display: none;
+}
+.editing .styles {
+  display: block;
+}
+
+hr.topline {
+  width: 56px;
+  height: 3px;
+  background-color: #ffc412;
+  border: 1px solid #ffc412;
+  border-radius: 3px;
+  border-top: 0 !important;
+  margin: 56px auto 48px !important;
+}
+
+.airlineSEOMenuContent {
+  text-decoration: none !important;
+  font-weight: 300 !important;
+}
+
+.airlineSEOSubMenu h5 {
+  font-family: MuseoSans, sans-serif;
+  font-weight: 500;
+}
+
+.airlineSEO_descriptions ol {
+  font-size: 14px;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 300;
+}
+
+.airlineSEOGrey {
+  margin-bottom: 40px;
+}
+
+.landingTextLogo img {
+  width: 54px;
+  height: 54px;
+}
+
+.airlineSEOSpecialPrivilege {
+  margin: 0 auto 64px;
+}
+
+.airlineSEOSpecialPrivilege:nth-last-child(1) {
+  margin: 0 auto;
+}
+
+.airlineSEOFleet {
+  margin-bottom: 42px;
+}
+
+.airlineSEOFleet:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.generalPolicySEO > div:nth-child(1),
+.airlineSEOCheckIn > div:nth-child(1) {
+  margin-bottom: 32px;
+}
+
+.footerContent {
+  margin-top: 0;
+}
+
+.airlineSEOGreyContainer h3 {
+  font-family: MuseoSans, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #434343;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.airlineLinkSEO a {
+  font-weight: 300 !important;
+  text-decoration: none !important;
+}
+
+.airlineSEOP a {
+  text-decoration: none !important;
+  font-weight: 300;
+  font-family: MuseoSans, sans-serif;
+}
+
+.airlineSEOP + ol {
+  font-size: 14px;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 300;
+}
+
+.airlineSEOP + ol a {
+  text-decoration: none !important;
+  font-weight: 300;
+  font-family: MuseoSans, sans-serif;
+}
+
+.airlineSEOCheckIn a {
+  text-decoration: none !important;
+  font-weight: 300 !important;
+  font-family: MuseoSans, sans-serif;
+}
+
+.pulauContainer ul {
+  list-style: none !important;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+.pulauContainer li {
+  list-style: none !important;
+}
+
+.pulauContainer li a {
+  text-decoration: none !important;
+  font-weight: 300 !important;
+}
+
+.coverImage {
+  min-height: 368px !important;
+}
+
+.contentWrapper {
+  margin: -20px auto 0;
+  position: relative;
+}
+
+.trainSocialShareAbsoluteBottom {
+  bottom: 46px !important;
+}
+
+.tvSearchFrame {
+  margin-top: 270px;
+}
+
+.tv-search-container {
+  height: 420px;
+}
+
+.profileHistory__readMore {
+  font-weight: 300 !important;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+@media (max-width: 1024px) {
+  .trainSocialShareAbsoluteBottom,
+  .trainSocialShareFixedMiddle {
+    display: none !important;
+  }
+}
+
+.airlineSEOH4 {
+  text-align: center;
+}
+
+[data-name$="LandingPage_Flight_Desktop_BookingReservation_Content"] {
+  margin-bottom: 48px;
+}
+
+.mcp-placeholder[data-name="content"] {
+  padding: 0 !important;
+}
+
+.featureFlight .fancyHeading {
+  width: 100%;
+}
+
+.contactAddress {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 40px;
+  margin: 40px 0 -40px;
+  box-sizing: border-box;
+}
+
+.contactAddress__container {
+  width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+}
+
+.contactAddress__subContainer {
+  width: 280px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+#newsletterDialogSet {
+  display: none;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(35, 42, 48, 0.85);
+  z-index: 10005;
+  transition: all 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+#newsletterDialogSet.is-show {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+  align-items: center;
+}
+
+#newsletterDialogSet.false .tv-dialog-content-left {
+  display: none;
+}
+
+#newsletterDialogSet.false h3 {
+  display: none;
+}
+
+.newsletterDialog {
+  width: 600px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.2),
+    0 16px 24px 0 rgba(27, 27, 27, 0.1);
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -80px;
+}
+
+.newsletterDialogContent {
+  height: auto;
+}
+
+#close-modal {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+.airlineCoverImage {
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  height: 368px;
+}
+
+.airlineCoverImage_logoContainer {
+  margin: 0 auto;
+  width: 960px;
+  height: 450px;
+  position: relative;
+}
+
+.airlineCoverImage__logo {
+  position: absolute;
+  top: 150px;
+  width: 270px !important;
+  height: auto !important;
+}
+
+#tv-searchBox #tvSearchTagLine {
+  background: #002157;
+}
+
+#tv-searchBox #flight-search {
+  border: 6px solid #002157;
+}
+
+#tv-searchBox .tv-tabsHeader {
+  background: #002157;
+}
+
+#tv-searchBox #trip-search {
+  border: 6px solid #002157;
+}
+
+#tv-searchBox #airportTransport-search {
+  border: 6px solid #002157;
+}
+
+#multiSearchContainerTabs li.active {
+  background: #002157;
+}
+
+.contentWrapper {
+  margin: 42px auto 0 !important;
+}
+
+.airlineCoverImage__title {
+  position: absolute;
+  top: 224px;
+  font-size: 24px;
+}
+
+.tv-searchBox {
+  margin-top: 80px !important;
+}
+
+.airlineSEOClassesContent h5,
+.airlineSEOClassesContent strong {
+  font-family: MuseoSans, sans-serif;
+}
+
+.airlineSEOClassesContent h5 {
+  font-weight: 500;
+  margin: 0 0 24px;
+}
+
+.airlineSEOClassesContent strong {
+  font-weight: 500;
+}
+
+.airlineSEOClassesContent > img {
+  margin-bottom: 32px;
+}
+
+.mealContainer {
+  margin-top: 10px;
+}
+
+.mealContainer img,
+.subMealContainer {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.mealContainer img {
+  margin-right: 24px;
+  margin-bottom: 0;
+}
+
+.subMealContainer {
+  width: 210px;
+}
+
+.airlineSEOClassesContent .imageClass {
+  width: 450px;
+  height: 300px;
+}
+
+.airlineSEOClassesContent .imageMeal {
+  width: 210px;
+  height: 140px;
+}
+
+.airlineSEOP + ol li {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  font-weight: 500;
+  color: #434343;
+}
+.trainSocialShare {
+  width: 100px;
+  height: auto;
+  display: table;
+  position: fixed;
+  text-align: center;
+}
+
+.trainSocialShare p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.trainSocialShareAbsoluteBottom {
+  position: absolute;
+  bottom: 0;
+  right: -100px;
+}
+
+.trainSocialShareFixedMiddle {
+  position: fixed;
+  bottom: 46px;
+}
+
+.trainSocialShare img {
+  margin: 16px auto 0;
+  display: block;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.trainSocialShare__icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.trainSocialShare__container .trainSocialShare__icon:hover {
+  box-shadow: 0px 0px 3px 0px;
+  opacity: 1;
+}
+
+.trainSocialShare__scroll-up {
+  width: 64px;
+  height: 64px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.trainSocialShare__scroll-up:hover {
+  opacity: 1;
+}
+.airlineLinkSEO {
+  vertical-align: top;
+  display: inline-block;
+  width: 313px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.airlineLinkSEO a {
+  font-size: 14px;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  margin-bottom: 16px;
+  line-height: 1.4;
+  color: #0d7fcc;
+}
+.checkInTableContainer {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.checkInTable,
+.checkInTable td,
+.checkInTable th {
+  border: 1px solid #dedede;
+  padding: 4px 8px;
+}
+
+.checkInTable thead td {
+  background-color: #fafafa;
+  text-align: left;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.checkInTable p {
+  margin: 0;
+}
