@@ -1,9 +1,6 @@
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 // component
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Routes from "./routes/Routes";
-import Manager from "./pages/Manager";
 
 function App() {
   return (
@@ -12,9 +9,7 @@ function App() {
         <Route
           render={() => (
             <div>
-              <Header />
               <Routes />
-              <Footer />
             </div>
           )}
         />
